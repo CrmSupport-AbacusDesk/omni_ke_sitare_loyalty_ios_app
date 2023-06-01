@@ -1,0 +1,19 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>aboutus-modal</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <div class="main-modal">
+        <div class="modal-box">
+            <div class="pl16 pr16 pb16">
+            <h1>{{'Omni Screws' | translate}}</h1>
+            <h2>{{'Your request to access the Omni Screws is under review. You will be able to log in as soon as the overseeing dealer acknowledges your application' | translate}}.</h2>
+            <p>{{'Meanwhile, you can contact us' | translate}} <a href="tel:7011474189">  +91 7011474189</a> {{'or mail us' | translate}} <span>info@omniscrews.com</span> {{'if you any question' | translate}}.</p>
+            </div>
+            <button ion-button full outline (click)="gotoHomePage()">Ok</button>
+
+        </div>
+    </div>
+</ion-content>
